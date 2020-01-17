@@ -39,7 +39,7 @@ export default function App(props) {
   const displayTodos = () => {
     return todos.map((t) => {
       return(
-        <div style={{display:'flex'}}>
+        <div className="collection-item" style={{display:'flex'}}>
           <div>{t.content}</div>
           <div><button>X</button></div>
         </div>
